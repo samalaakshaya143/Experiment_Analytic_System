@@ -1,0 +1,56 @@
+{
+  "seed": 20261022,
+  "requested_eligible_users": 50000,
+  "counts": {
+    "experiments": 10,
+    "variants": 20,
+    "audience_members": 50000,
+    "assignments": 50001,
+    "exposure_events": 47997,
+    "conversion_events": 5599,
+    "metric_definitions": 21,
+    "guardrail_metrics": 10,
+    "experiment_results": 20,
+    "ground_truth": 5
+  },
+  "checks": {
+    "experiments_primary_key_unique": true,
+    "variants_primary_key_unique": true,
+    "audience_members_primary_key_unique": true,
+    "assignments_primary_key_unique": true,
+    "exposure_events_primary_key_unique": true,
+    "conversion_events_primary_key_unique": true,
+    "metric_definitions_primary_key_unique": true,
+    "guardrail_metrics_primary_key_unique": true,
+    "experiment_results_primary_key_unique": true,
+    "all_references_resolve": true,
+    "required_anomaly_coverage": true,
+    "requested_audience_count": true,
+    "experiment_count": true,
+    "all_results_have_uncertainty": true,
+    "analysis_plan_traceability": true,
+    "experiment_lifecycle_and_dates": true,
+    "allocation_and_control_reconcile": true,
+    "assignment_audience_and_eligibility_consistent": true,
+    "multiple_variant_exception_labelled": true,
+    "exposure_order_exception_labelled": true,
+    "out_of_window_exception_labelled": true,
+    "event_identity_matches_assignment": true,
+    "result_metric_versions_match": true,
+    "metric_change_after_results_labelled": true,
+    "result_counts_reconcile_to_source": true
+  },
+  "issues": [],
+  "overall_status": "PASS",
+  "decision_counts": {
+    "no_evidence_of_lift": 12,
+    "srm_ignored_anomaly": 1,
+    "inconclusive_srm": 3,
+    "do_not_ship_guardrail": 4
+  },
+  "notes": [
+    "Injected anomaly records are expected and documented in ground_truth.csv.",
+    "The srm_ignored_anomaly decision is intentional and separately labelled.",
+    "Estimate is intention-to-treat; uncertainty uses normal approximation for a difference in proportions."
+  ]
+}

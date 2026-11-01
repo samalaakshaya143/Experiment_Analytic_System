@@ -1,0 +1,102 @@
+[
+  {
+    "guardrail_id": "GRD-EXP-2026-000001-SUPPORT",
+    "experiment_id": "EXP-2026-000001",
+    "metric_id": "MET-EXP-2026-000001-SUPPORT-v1",
+    "name": "Support contact rate",
+    "direction": "max_increase",
+    "threshold": 0.02,
+    "unit": "absolute_rate_difference",
+    "severity": "block"
+  },
+  {
+    "guardrail_id": "GRD-EXP-2026-000002-SUPPORT",
+    "experiment_id": "EXP-2026-000002",
+    "metric_id": "MET-EXP-2026-000002-SUPPORT-v1",
+    "name": "Support contact rate",
+    "direction": "max_increase",
+    "threshold": 0.02,
+    "unit": "absolute_rate_difference",
+    "severity": "block"
+  },
+  {
+    "guardrail_id": "GRD-EXP-2026-000003-SUPPORT",
+    "experiment_id": "EXP-2026-000003",
+    "metric_id": "MET-EXP-2026-000003-SUPPORT-v1",
+    "name": "Support contact rate",
+    "direction": "max_increase",
+    "threshold": 0.02,
+    "unit": "absolute_rate_difference",
+    "severity": "block"
+  },
+  {
+    "guardrail_id": "GRD-EXP-2026-000004-SUPPORT",
+    "experiment_id": "EXP-2026-000004",
+    "metric_id": "MET-EXP-2026-000004-SUPPORT-v1",
+    "name": "Support contact rate",
+    "direction": "max_increase",
+    "threshold": 0.02,
+    "unit": "absolute_rate_difference",
+    "severity": "block"
+  },
+  {
+    "guardrail_id": "GRD-EXP-2026-000005-SUPPORT",
+    "experiment_id": "EXP-2026-000005",
+    "metric_id": "MET-EXP-2026-000005-SUPPORT-v1",
+    "name": "Support contact rate",
+    "direction": "max_increase",
+    "threshold": 0.015,
+    "unit": "absolute_rate_difference",
+    "severity": "block"
+  },
+  {
+    "guardrail_id": "GRD-EXP-2026-000006-SUPPORT",
+    "experiment_id": "EXP-2026-000006",
+    "metric_id": "MET-EXP-2026-000006-SUPPORT-v1",
+    "name": "Support contact rate",
+    "direction": "max_increase",
+    "threshold": 0.02,
+    "unit": "absolute_rate_difference",
+    "severity": "block"
+  },
+  {
+    "guardrail_id": "GRD-EXP-2026-000007-SUPPORT",
+    "experiment_id": "EXP-2026-000007",
+    "metric_id": "MET-EXP-2026-000007-SUPPORT-v1",
+    "name": "Support contact rate",
+    "direction": "max_increase",
+    "threshold": 0.02,
+    "unit": "absolute_rate_difference",
+    "severity": "block"
+  },
+  {
+    "guardrail_id": "GRD-EXP-2026-000008-SUPPORT",
+    "experiment_id": "EXP-2026-000008",
+    "metric_id": "MET-EXP-2026-000008-SUPPORT-v1",
+    "name": "Support contact rate",
+    "direction": "max_increase",
+    "threshold": 0.02,
+    "unit": "absolute_rate_difference",
+    "severity": "block"
+  },
+  {
+    "guardrail_id": "GRD-EXP-2026-000009-SUPPORT",
+    "experiment_id": "EXP-2026-000009",
+    "metric_id": "MET-EXP-2026-000009-SUPPORT-v1",
+    "name": "Support contact rate",
+    "direction": "max_increase",
+    "threshold": 0.02,
+    "unit": "absolute_rate_difference",
+    "severity": "block"
+  },
+  {
+    "guardrail_id": "GRD-EXP-2026-000010-SUPPORT",
+    "experiment_id": "EXP-2026-000010",
+    "metric_id": "MET-EXP-2026-000010-SUPPORT-v1",
+    "name": "Support contact rate",
+    "direction": "max_increase",
+    "threshold": 0.015,
+    "unit": "absolute_rate_difference",
+    "severity": "block"
+  }
+]

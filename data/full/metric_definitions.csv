@@ -1,0 +1,22 @@
+metric_id,experiment_id,name,metric_type,numerator_event,denominator,unit,window_days,version,effective_from,effective_to,is_primary
+MET-EXP-2026-000001-PRIMARY-v1,EXP-2026-000001,14-day purchase conversion,proportion,purchase,assigned_users,rate,14,1,2026-01-01T00:00:00Z,2026-01-31T00:00:00Z,true
+MET-EXP-2026-000001-SUPPORT-v1,EXP-2026-000001,Support contact rate,proportion,support_contact,assigned_users,rate,14,1,2026-01-01T00:00:00Z,2026-01-31T00:00:00Z,false
+MET-EXP-2026-000002-PRIMARY-v1,EXP-2026-000002,14-day purchase conversion,proportion,purchase,assigned_users,rate,14,1,2026-01-15T00:00:00Z,2026-02-14T00:00:00Z,true
+MET-EXP-2026-000002-SUPPORT-v1,EXP-2026-000002,Support contact rate,proportion,support_contact,assigned_users,rate,14,1,2026-01-15T00:00:00Z,2026-02-14T00:00:00Z,false
+MET-EXP-2026-000003-PRIMARY-v1,EXP-2026-000003,14-day purchase conversion,proportion,purchase,assigned_users,rate,14,1,2026-01-29T00:00:00Z,2026-02-28T00:00:00Z,true
+MET-EXP-2026-000003-SUPPORT-v1,EXP-2026-000003,Support contact rate,proportion,support_contact,assigned_users,rate,14,1,2026-01-29T00:00:00Z,2026-02-28T00:00:00Z,false
+MET-EXP-2026-000004-PRIMARY-v1,EXP-2026-000004,14-day purchase conversion,proportion,purchase,assigned_users,rate,14,1,2026-02-12T00:00:00Z,2026-03-14T00:00:00Z,true
+MET-EXP-2026-000004-SUPPORT-v1,EXP-2026-000004,Support contact rate,proportion,support_contact,assigned_users,rate,14,1,2026-02-12T00:00:00Z,2026-03-14T00:00:00Z,false
+MET-EXP-2026-000005-PRIMARY-v1,EXP-2026-000005,14-day purchase conversion,proportion,purchase,assigned_users,rate,14,1,2026-02-26T00:00:00Z,2026-03-28T00:00:00Z,true
+MET-EXP-2026-000005-SUPPORT-v1,EXP-2026-000005,Support contact rate,proportion,support_contact,assigned_users,rate,14,1,2026-02-26T00:00:00Z,2026-03-28T00:00:00Z,false
+MET-EXP-2026-000006-PRIMARY-v1,EXP-2026-000006,14-day purchase conversion,proportion,purchase,assigned_users,rate,14,1,2026-03-12T00:00:00Z,2026-04-11T00:00:00Z,true
+MET-EXP-2026-000006-SUPPORT-v1,EXP-2026-000006,Support contact rate,proportion,support_contact,assigned_users,rate,14,1,2026-03-12T00:00:00Z,2026-04-11T00:00:00Z,false
+MET-EXP-2026-000007-PRIMARY-v1,EXP-2026-000007,14-day purchase conversion,proportion,purchase,assigned_users,rate,14,1,2026-03-26T00:00:00Z,2026-04-25T00:00:00Z,true
+MET-EXP-2026-000007-SUPPORT-v1,EXP-2026-000007,Support contact rate,proportion,support_contact,assigned_users,rate,14,1,2026-03-26T00:00:00Z,2026-04-25T00:00:00Z,false
+MET-EXP-2026-000008-PRIMARY-v1,EXP-2026-000008,14-day purchase conversion,proportion,purchase,assigned_users,rate,14,1,2026-04-09T00:00:00Z,2026-05-09T00:00:00Z,true
+MET-EXP-2026-000008-SUPPORT-v1,EXP-2026-000008,Support contact rate,proportion,support_contact,assigned_users,rate,14,1,2026-04-09T00:00:00Z,2026-05-09T00:00:00Z,false
+MET-EXP-2026-000009-PRIMARY-v1,EXP-2026-000009,14-day purchase conversion,proportion,purchase,assigned_users,rate,14,1,2026-04-23T00:00:00Z,2026-05-23T00:00:00Z,true
+MET-EXP-2026-000009-SUPPORT-v1,EXP-2026-000009,Support contact rate,proportion,support_contact,assigned_users,rate,14,1,2026-04-23T00:00:00Z,2026-05-23T00:00:00Z,false
+MET-EXP-2026-000010-PRIMARY-v1,EXP-2026-000010,14-day purchase conversion,proportion,purchase,assigned_users,rate,14,1,2026-05-07T00:00:00Z,2026-06-06T00:00:00Z,true
+MET-EXP-2026-000010-SUPPORT-v1,EXP-2026-000010,Support contact rate,proportion,support_contact,assigned_users,rate,14,1,2026-05-07T00:00:00Z,2026-06-06T00:00:00Z,false
+MET-EXP-2026-000001-PRIMARY-v2,EXP-2026-000001,14-day purchase conversion,proportion,purchase,assigned_users,rate,7,2,2026-06-22T00:00:00Z,,true

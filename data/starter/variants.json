@@ -1,0 +1,182 @@
+[
+  {
+    "variant_id": "VAR-EXP-2026-000001-A",
+    "experiment_id": "EXP-2026-000001",
+    "name": "control",
+    "allocation_ratio": 0.5,
+    "is_control": "true",
+    "effective_from": "2026-01-01T00:00:00Z",
+    "effective_to": "2026-01-31T00:00:00Z"
+  },
+  {
+    "variant_id": "VAR-EXP-2026-000001-B",
+    "experiment_id": "EXP-2026-000001",
+    "name": "treatment",
+    "allocation_ratio": 0.5,
+    "is_control": "false",
+    "effective_from": "2026-01-01T00:00:00Z",
+    "effective_to": "2026-01-31T00:00:00Z"
+  },
+  {
+    "variant_id": "VAR-EXP-2026-000002-A",
+    "experiment_id": "EXP-2026-000002",
+    "name": "control",
+    "allocation_ratio": 0.7,
+    "is_control": "true",
+    "effective_from": "2026-01-15T00:00:00Z",
+    "effective_to": "2026-02-14T00:00:00Z"
+  },
+  {
+    "variant_id": "VAR-EXP-2026-000002-B",
+    "experiment_id": "EXP-2026-000002",
+    "name": "treatment",
+    "allocation_ratio": 0.3,
+    "is_control": "false",
+    "effective_from": "2026-01-15T00:00:00Z",
+    "effective_to": "2026-02-14T00:00:00Z"
+  },
+  {
+    "variant_id": "VAR-EXP-2026-000003-A",
+    "experiment_id": "EXP-2026-000003",
+    "name": "control",
+    "allocation_ratio": 0.5,
+    "is_control": "true",
+    "effective_from": "2026-01-29T00:00:00Z",
+    "effective_to": "2026-02-28T00:00:00Z"
+  },
+  {
+    "variant_id": "VAR-EXP-2026-000003-B",
+    "experiment_id": "EXP-2026-000003",
+    "name": "treatment",
+    "allocation_ratio": 0.5,
+    "is_control": "false",
+    "effective_from": "2026-01-29T00:00:00Z",
+    "effective_to": "2026-02-28T00:00:00Z"
+  },
+  {
+    "variant_id": "VAR-EXP-2026-000004-A",
+    "experiment_id": "EXP-2026-000004",
+    "name": "control",
+    "allocation_ratio": 0.5,
+    "is_control": "true",
+    "effective_from": "2026-02-12T00:00:00Z",
+    "effective_to": "2026-03-14T00:00:00Z"
+  },
+  {
+    "variant_id": "VAR-EXP-2026-000004-B",
+    "experiment_id": "EXP-2026-000004",
+    "name": "treatment",
+    "allocation_ratio": 0.5,
+    "is_control": "false",
+    "effective_from": "2026-02-12T00:00:00Z",
+    "effective_to": "2026-03-14T00:00:00Z"
+  },
+  {
+    "variant_id": "VAR-EXP-2026-000005-A",
+    "experiment_id": "EXP-2026-000005",
+    "name": "control",
+    "allocation_ratio": 0.5,
+    "is_control": "true",
+    "effective_from": "2026-02-26T00:00:00Z",
+    "effective_to": "2026-03-28T00:00:00Z"
+  },
+  {
+    "variant_id": "VAR-EXP-2026-000005-B",
+    "experiment_id": "EXP-2026-000005",
+    "name": "treatment",
+    "allocation_ratio": 0.5,
+    "is_control": "false",
+    "effective_from": "2026-02-26T00:00:00Z",
+    "effective_to": "2026-03-28T00:00:00Z"
+  },
+  {
+    "variant_id": "VAR-EXP-2026-000006-A",
+    "experiment_id": "EXP-2026-000006",
+    "name": "control",
+    "allocation_ratio": 0.5,
+    "is_control": "true",
+    "effective_from": "2026-03-12T00:00:00Z",
+    "effective_to": "2026-04-11T00:00:00Z"
+  },
+  {
+    "variant_id": "VAR-EXP-2026-000006-B",
+    "experiment_id": "EXP-2026-000006",
+    "name": "treatment",
+    "allocation_ratio": 0.5,
+    "is_control": "false",
+    "effective_from": "2026-03-12T00:00:00Z",
+    "effective_to": "2026-04-11T00:00:00Z"
+  },
+  {
+    "variant_id": "VAR-EXP-2026-000007-A",
+    "experiment_id": "EXP-2026-000007",
+    "name": "control",
+    "allocation_ratio": 0.7,
+    "is_control": "true",
+    "effective_from": "2026-03-26T00:00:00Z",
+    "effective_to": "2026-04-25T00:00:00Z"
+  },
+  {
+    "variant_id": "VAR-EXP-2026-000007-B",
+    "experiment_id": "EXP-2026-000007",
+    "name": "treatment",
+    "allocation_ratio": 0.3,
+    "is_control": "false",
+    "effective_from": "2026-03-26T00:00:00Z",
+    "effective_to": "2026-04-25T00:00:00Z"
+  },
+  {
+    "variant_id": "VAR-EXP-2026-000008-A",
+    "experiment_id": "EXP-2026-000008",
+    "name": "control",
+    "allocation_ratio": 0.5,
+    "is_control": "true",
+    "effective_from": "2026-04-09T00:00:00Z",
+    "effective_to": "2026-05-09T00:00:00Z"
+  },
+  {
+    "variant_id": "VAR-EXP-2026-000008-B",
+    "experiment_id": "EXP-2026-000008",
+    "name": "treatment",
+    "allocation_ratio": 0.5,
+    "is_control": "false",
+    "effective_from": "2026-04-09T00:00:00Z",
+    "effective_to": "2026-05-09T00:00:00Z"
+  },
+  {
+    "variant_id": "VAR-EXP-2026-000009-A",
+    "experiment_id": "EXP-2026-000009",
+    "name": "control",
+    "allocation_ratio": 0.5,
+    "is_control": "true",
+    "effective_from": "2026-04-23T00:00:00Z",
+    "effective_to": "2026-05-23T00:00:00Z"
+  },
+  {
+    "variant_id": "VAR-EXP-2026-000009-B",
+    "experiment_id": "EXP-2026-000009",
+    "name": "treatment",
+    "allocation_ratio": 0.5,
+    "is_control": "false",
+    "effective_from": "2026-04-23T00:00:00Z",
+    "effective_to": "2026-05-23T00:00:00Z"
+  },
+  {
+    "variant_id": "VAR-EXP-2026-000010-A",
+    "experiment_id": "EXP-2026-000010",
+    "name": "control",
+    "allocation_ratio": 0.5,
+    "is_control": "true",
+    "effective_from": "2026-05-07T00:00:00Z",
+    "effective_to": "2026-06-06T00:00:00Z"
+  },
+  {
+    "variant_id": "VAR-EXP-2026-000010-B",
+    "experiment_id": "EXP-2026-000010",
+    "name": "treatment",
+    "allocation_ratio": 0.5,
+    "is_control": "false",
+    "effective_from": "2026-05-07T00:00:00Z",
+    "effective_to": "2026-06-06T00:00:00Z"
+  }
+]

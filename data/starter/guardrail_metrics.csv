@@ -1,0 +1,11 @@
+guardrail_id,experiment_id,metric_id,name,direction,threshold,unit,severity
+GRD-EXP-2026-000001-SUPPORT,EXP-2026-000001,MET-EXP-2026-000001-SUPPORT-v1,Support contact rate,max_increase,0.02,absolute_rate_difference,block
+GRD-EXP-2026-000002-SUPPORT,EXP-2026-000002,MET-EXP-2026-000002-SUPPORT-v1,Support contact rate,max_increase,0.02,absolute_rate_difference,block
+GRD-EXP-2026-000003-SUPPORT,EXP-2026-000003,MET-EXP-2026-000003-SUPPORT-v1,Support contact rate,max_increase,0.02,absolute_rate_difference,block
+GRD-EXP-2026-000004-SUPPORT,EXP-2026-000004,MET-EXP-2026-000004-SUPPORT-v1,Support contact rate,max_increase,0.02,absolute_rate_difference,block
+GRD-EXP-2026-000005-SUPPORT,EXP-2026-000005,MET-EXP-2026-000005-SUPPORT-v1,Support contact rate,max_increase,0.015,absolute_rate_difference,block
+GRD-EXP-2026-000006-SUPPORT,EXP-2026-000006,MET-EXP-2026-000006-SUPPORT-v1,Support contact rate,max_increase,0.02,absolute_rate_difference,block
+GRD-EXP-2026-000007-SUPPORT,EXP-2026-000007,MET-EXP-2026-000007-SUPPORT-v1,Support contact rate,max_increase,0.02,absolute_rate_difference,block
+GRD-EXP-2026-000008-SUPPORT,EXP-2026-000008,MET-EXP-2026-000008-SUPPORT-v1,Support contact rate,max_increase,0.02,absolute_rate_difference,block
+GRD-EXP-2026-000009-SUPPORT,EXP-2026-000009,MET-EXP-2026-000009-SUPPORT-v1,Support contact rate,max_increase,0.02,absolute_rate_difference,block
+GRD-EXP-2026-000010-SUPPORT,EXP-2026-000010,MET-EXP-2026-000010-SUPPORT-v1,Support contact rate,max_increase,0.015,absolute_rate_difference,block

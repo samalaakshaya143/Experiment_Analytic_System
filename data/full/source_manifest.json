@@ -1,0 +1,9 @@
+{
+  "provenance": "fully synthetic; no external or personal data",
+  "generator": "generate_experiments.py",
+  "seed": 20261022,
+  "requested_eligible_users": 50000,
+  "experiments": 10,
+  "scope": "CSV and JSON-derived portable SQL seed records",
+  "generated_at": "fixed-by-seed-and-synthetic-clock"
+}

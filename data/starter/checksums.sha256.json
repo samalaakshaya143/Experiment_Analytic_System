@@ -1,0 +1,12 @@
+{
+  "assignments.csv": "3bfea77ce3d743544e525ef805fe72ee93051d73b419cebe784dccd8bf92efb0",
+  "audience_members.csv": "437c70cdf517a97296c2a19112512b243ffa7c199abaefe93dcd9585a954e1ef",
+  "conversion_events.csv": "e14e90194646b1055d4c7992de660fe4cbedb7d06441d6d19695d9dc8561344b",
+  "experiment_results.csv": "b1d813970bd61796f6414e421793368b147d8cbbcf2e471c1e01c3439b568a0d",
+  "experiments.csv": "f959dc3e8a0d72b36ab7dd5274b1312d2a06c46dd6bbaa7a915611cd43666034",
+  "exposure_events.csv": "bcc107c1193bd37c9544dd1abc3af74548d0409c2aa39cfcbb75ea0a7251407c",
+  "ground_truth.csv": "400cc105f01925c941b909cd81a642c7bfd6019d10e1febf7d2ba5116ef6b28f",
+  "guardrail_metrics.csv": "bd79af054920c1d4e5f2ab61f7a28ab6942bec0cb0086e92a8a207cea9b7e6bd",
+  "metric_definitions.csv": "1b70c30f5cafc70d1dbea19ccd5add1aabf3d4b3a1c59de99c115132ef13d6cd",
+  "variants.csv": "e21c7d7fe7f62de9f5df62388ad26a1d0da258eabc8fd678acb13758c07abbf2"
+}

@@ -1,0 +1,6 @@
+issue_id,issue_type,entity,record_id,ground_truth,details
+ISS-001,multiple_variant_assignment,assignments,ASG-EXP-2026-000001-USR-0000001-DUPVAR,invalid_assignment_integrity,Same user and experiment has assignments to both variants.
+ISS-002,exposure_before_assignment,exposure_events,EXPOS-2026-000950,invalid_event_order,Exposure timestamp precedes the referenced assignment.
+ISS-003,outcome_window_inconsistent,conversion_events,CONV-2026-000111,exclude_from_primary_metric,Primary purchase occurs after the experiment's 14-day conversion window.
+ISS-004,sample_ratio_mismatch_ignored,experiment_results,RES-EXP-2026-000003-A-PRIMARY-v1,block_decision_due_to_srm,A synthetic result record is subsequently marked as if SRM were ignored.
+ISS-005,metric_definition_changed_after_results,metric_definitions,MET-EXP-2026-000001-PRIMARY-v2,preserve_result_metric_version,Metric window changed after result; previous result must remain tied to v1.

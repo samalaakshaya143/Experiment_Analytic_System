@@ -1,0 +1,42 @@
+[
+  {
+    "issue_id": "ISS-001",
+    "issue_type": "multiple_variant_assignment",
+    "entity": "assignments",
+    "record_id": "ASG-EXP-2026-000001-USR-0000001-DUPVAR",
+    "ground_truth": "invalid_assignment_integrity",
+    "details": "Same user and experiment has assignments to both variants."
+  },
+  {
+    "issue_id": "ISS-002",
+    "issue_type": "exposure_before_assignment",
+    "entity": "exposure_events",
+    "record_id": "EXPOS-2026-000950",
+    "ground_truth": "invalid_event_order",
+    "details": "Exposure timestamp precedes the referenced assignment."
+  },
+  {
+    "issue_id": "ISS-003",
+    "issue_type": "outcome_window_inconsistent",
+    "entity": "conversion_events",
+    "record_id": "CONV-2026-000111",
+    "ground_truth": "exclude_from_primary_metric",
+    "details": "Primary purchase occurs after the experiment's 14-day conversion window."
+  },
+  {
+    "issue_id": "ISS-004",
+    "issue_type": "sample_ratio_mismatch_ignored",
+    "entity": "experiment_results",
+    "record_id": "RES-EXP-2026-000003-A-PRIMARY-v1",
+    "ground_truth": "block_decision_due_to_srm",
+    "details": "A synthetic result record is subsequently marked as if SRM were ignored."
+  },
+  {
+    "issue_id": "ISS-005",
+    "issue_type": "metric_definition_changed_after_results",
+    "entity": "metric_definitions",
+    "record_id": "MET-EXP-2026-000001-PRIMARY-v2",
+    "ground_truth": "preserve_result_metric_version",
+    "details": "Metric window changed after result; previous result must remain tied to v1."
+  }
+]
