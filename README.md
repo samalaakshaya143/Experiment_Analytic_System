@@ -11,33 +11,49 @@ All included records are synthetic. The datasets contain documented edge cases f
 
 ## Run the analysis
 
-From the project root, run:
+You can run the analysis using the database included in this repository. You do not need to generate data first.
 
-```powershell
-python src/main.py
-```
+1. Open a terminal in the project folder (the folder containing `README.md`).
+2. Check that Python 3.7 or newer is available:
 
-The runner validates `database/experiments.db` first. If validation passes, it calculates metrics and randomization checks, then writes the experiment-level summary to `reports/analysis_summary.csv`. The database must contain the supplied experiment data; the repository includes a database file at that path.
+   ```powershell
+   python --version
+   ```
 
-The validation expects 10 experiments, 50,000 audience members, 20 experiment results, valid foreign-key references, and five labelled edge cases. If validation fails, analysis stops and prints the failed checks.
+3. Start the analysis:
 
-## Generate synthetic data
+   ```powershell
+   python src/main.py
+   ```
 
-The generator creates CSV and JSON files, a SQLite seed script, checksums, a manifest, and a validation summary:
+The program runs these steps in order:
+
+1. Opens `database/experiments.db` and checks that it contains the expected records and valid database references.
+2. Stops and reports failed checks if the database is invalid.
+3. Calculates purchase and support-contact rates, checks whether assignment counts match the experiment allocation ratios, and compares treatment with control.
+4. Prints a summary for each experiment and saves the full summary to `reports/analysis_summary.csv`.
+
+When it finishes successfully, the terminal prints `Analysis report saved to reports/analysis_summary.csv`. Open that CSV file to review the results. The checks expect 10 experiments, 50,000 audience members, 20 experiment results, valid foreign-key references, and five labelled edge cases.
+
+This project uses only Python's standard library, so no package installation is required.
+
+## Optional: generate synthetic data
+
+Data generation is a separate task; it is not required to run the included analysis. The generator creates CSV and JSON source tables, a SQLite seed script, checksums, a manifest, and a validation summary:
 
 ```powershell
 python src/generate_data.py
 ```
 
-By default, it generates 50,000 eligible users across 10 experiments in `outputs/full`, using a fixed seed for reproducibility. Options can change the scale, seed, and output directory:
+By default, it generates 50,000 eligible users across 10 experiments in `outputs/full`, using a fixed seed for reproducibility. You can set the user count, seed, and output directory:
 
 ```powershell
 python src/generate_data.py --scale 50000 --seed 20261022 --out outputs/full
 ```
 
-The generator clears the contents of the selected output directory before writing. Choose a dedicated output directory; do not point it at `data/full` or `data/starter` unless you intend to replace those files.
+The generator clears the contents of the selected output directory before writing. Use a dedicated output directory; do not select `data/full` or `data/starter` unless you intend to replace those files.
 
-The checked-in datasets are in `data/full` and `data/starter`. Each includes CSV and JSON versions of the source tables, plus `seed.sql` for loading the records into a fresh SQLite database. The default analysis command reads `database/experiments.db`; generating a dataset does not automatically replace that database.
+Generating data does not update `database/experiments.db`. To load generated data into a SQLite database, use the generated `seed.sql` file with SQLite, then run the analysis command. The checked-in sample datasets are in `data/full` and `data/starter`; each contains CSV and JSON tables and its own `seed.sql` script.
 
 ## Analysis details
 
